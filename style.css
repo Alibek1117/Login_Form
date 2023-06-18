@@ -100,7 +100,8 @@ button label{
     color: #fff;
 }
 
-button:hover{
+button:hover,
+.signBtn:hover{
     background-color: rgba(41, 41, 41, 0.555);
     font-size: 1em;
     font-weight: bold;
