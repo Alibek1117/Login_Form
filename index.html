@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="main">
+        <input type="checkbox" id="chk" aria-hidden="true" >
+
+        <div class="signup">
+            <form class="formsignup" >
+                <label for="chk" aria-hidden="true">Sign Up</label>
+                <input type="text" name="username" placeholder="Username" required>
+                <span class="nameSpan"></span>
+                <input type="email" name="email" placeholder="Email" required >
+                <span class="nameSpanE"></span>
+                <input type="password" name="password" placeholder="Password" required >
+                <div class="divca"><span class="nameSpanP"></span></div>
+                <label for="chk" aria-hidden="true" type="submit" class="signBtn">Sign up</label>
+            </form>
+        </div>
+        <div class="login">
+            <form class="formlogin" action="https://www.instagram.com/direct/t/104474254287274/">
+                <label for="chk" aria-hidden="true">Login</label>
+                <input type="email" name="email" placeholder="Email" required>
+                <span class="nameSpanEE"></span>
+                <input type="password" name="password" placeholder="Password" required>
+                <div class="divca"><span class="nameSpanPP"></span></div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
